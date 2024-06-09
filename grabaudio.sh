@@ -12,7 +12,9 @@ fi
 		#echo "Setting output name as default output.mp3" #fix the users mistake
 		FINAL_FILE="output.mp3"
 		#echo "I have fixed your mistake, pray that I do not fix you further"
-		rm ./output.mp3
+		if test -f ./output.mp3; then
+			rm ./output.mp3
+		fi	
 		return 0
 	
 else
