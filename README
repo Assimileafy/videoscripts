@@ -1,0 +1,27 @@
+# OBS SCRIPTS FOR MEDIA GRABBING
+# Coded by Nemi Nem Nem / Assimileafy
+
+
++Requirements+
+
+Bash
+youtube-dl (and all of its preresiquites)
+ffmpeg (usually gets installed with youtube-dl)
+wsl2 if running on windows (these scripts mostly run in linux)
+
+
+
++Usage+
+
+
+|======|
+|\Bash\|
+|======|
+
+./script.sh <url> <filename.mp3>
+
+|============|
+|\Powershell\|
+|============|
+
+./script.ps1 -url <url -filename <filename.mp3>
